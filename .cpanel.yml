@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dlitnooi/public_html/crakito/wordpress
+    - /bin/cp * $DEPLOYPATH
